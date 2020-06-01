@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.Issue" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="331.0" prefWidth="560.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <GridPane layoutX="96.0" layoutY="25.0" prefHeight="177.0" prefWidth="383.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="124.0" minHeight="10.0" prefHeight="71.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="100.0" minHeight="10.0" prefHeight="74.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="72.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextField fx:id="Reg" prefHeight="57.0" prefWidth="170.0" GridPane.columnIndex="1" />
+            <TextField fx:id="StudentName" prefHeight="97.0" prefWidth="174.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="BookName" prefHeight="72.0" prefWidth="174.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Label prefHeight="103.0" prefWidth="173.0" text="              Reg.Number" />
+            <Label prefHeight="107.0" prefWidth="180.0" text="           Student Name" GridPane.rowIndex="1" />
+            <Label prefHeight="67.0" prefWidth="202.0" text="            Book Name" GridPane.rowIndex="2" />
+         </children>
+      </GridPane>
+      <Button layoutX="14.0" layoutY="290.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="92.0" text="Back" onAction="#Back" />
+      <Button layoutX="455.0" layoutY="290.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="101.0" text="Add" onAction="#Add"/>
+   </children>
+</Pane>

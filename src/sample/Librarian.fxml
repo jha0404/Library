@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:id="Librarian_pane" fx:controller="sample.LibrarianView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="229.0" layoutY="46.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="121.0" text="Add Books" onAction="#AddBooks"/>
+      <Button layoutX="226.0" layoutY="89.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="121.0" text="View Books" onAction="#ViewBooks"/>
+      <Button layoutX="226.0" layoutY="138.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="121.0" text="Issue Books" onAction="#issue"/>
+      <Button layoutX="230.0" layoutY="187.0" mnemonicParsing="false" text="View Issue Books" onAction="#issued"/>
+      <Button layoutX="230.0" layoutY="235.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="113.0" text="Return Books" />
+      <Button layoutX="230.0" layoutY="276.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="113.0" text="Logout" />
+   </children>
+</Pane>

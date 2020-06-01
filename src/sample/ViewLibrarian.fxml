@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1016.0" prefWidth="1049.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ViewLibrarian">
+   <children>
+      <TableView fx:id="tableView" prefHeight="659.0" prefWidth="1049.0">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="220.99998474121094" text="ID" />
+          <TableColumn fx:id="Name" prefWidth="427.0" text="Name" />
+            <TableColumn fx:id="Password" prefWidth="400.0" text="Password" />
+        </columns>
+      </TableView>
+      <Button layoutY="659.0" mnemonicParsing="false" onAction="#back" prefHeight="27.0" prefWidth="114.0" text="Back" />
+      <Button layoutX="948.0" layoutY="659.0" mnemonicParsing="false" onAction="#view" prefHeight="27.0" prefWidth="101.0" text="View" />
+   </children>
+</Pane>
